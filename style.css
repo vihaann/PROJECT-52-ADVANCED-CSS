@@ -1,0 +1,103 @@
+h1{
+    color :white;
+      
+}
+h4{
+    color:yellow;
+}
+
+
+.header{
+ 
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    background:url("Black.jpg")
+   
+   
+    
+
+}
+
+
+
+.header2{
+    justify-content:flex-start;
+    background-color :#f7f2f2;
+    
+}
+
+.header2 a{
+    text-decoration: none;
+}
+
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+background-color: #f7f2f2;
+margin-right: 30px;
+}
+
+.footer2{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.grid{
+
+    
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+   border-radius: 20px;
+   background-color: #ffffff;
+   padding: 30px;
+   margin:25px;
+   width:1150px;
+   font-family: fantasy;
+   font-weight: 300;
+   
+   
+    
+
+}
+.item{
+     margin-right: 30px;
+     padding-right: 30px;
+    
+
+}
+
+body{
+    margin: 10px;
+    background-color: #f7f2f2;
+}
+
+a:link{
+    color:red;
+}
+a:visited{
+    color:red;
+}
+
+
+.item:hover p{
+    opacity:1;
+    }
+    
+    .item:hover img{
+        opacity:0.33;
+    }
+    
+
+
+
+
+
